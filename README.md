@@ -8,12 +8,14 @@
 集成了slf4j日志
 
 实现了aop,Interceptor,filter以及filter和Interceptor的区别
+
 Interceptor
  * 拦截器是基于java的反射机制的
  * 拦截器只能对action请求起作用
  * 拦截器可以访问action上下文、值栈里的对象
  * 在action的生命周期中，拦截器可以多次被调用
-Interceptor
+ 
+filter
  * filter依赖于servlet，只能在初始化的时候被调用一次！
  * 是基于函数回调实现。
  * 过滤器则可以对几乎所有请求起作用。不能访问上下文
