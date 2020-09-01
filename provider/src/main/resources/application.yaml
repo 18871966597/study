@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+## 将本机基本属性告知注册中心， eurak会使用InetUtil类---去读取本机网卡。读取不到的时候会返回localhost。当返回localhost时会启动失败
+study:
+  eurak:
+    client:
+      host: 127.0.0.1
+      port: 8081
+      server-name: provider
+      adress: http://192.168.37.127:8080/heartBeat

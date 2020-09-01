@@ -1,0 +1,28 @@
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+##mybatis.config-locations=classpath:config/mybatis/mybatis-config.xml
+
+server:
+  port: 8080
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.37.202:1521:orcl
+    password: FKZX
+    username: FKZX
+  ##redis配置
+  redis:
+    host: 192.168.37.203
+    port: 6680
+    password: Winning@123
+    database: 1
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 500
+        max-wait: 1
+        min-idle: 0
+    timeout: 5000
+
+  profiles:
+      active: local-dev

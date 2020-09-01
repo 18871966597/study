@@ -1,0 +1,498 @@
+2020-08-31 10:43:29.533 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 22200 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 10:43:29.536 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 10:43:30.978 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 10:43:30.983 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 10:43:31.016 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-08-31 10:43:32.309 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 10:43:32.320 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:43:32.320 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 10:43:32.321 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 10:43:32.476 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 10:43:32.476 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2842 ms
+2020-08-31 10:43:33.632 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:43:34.054 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 10:43:34.209 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 10:43:34.210 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 10:43:39.107 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:43:39.144 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 10:43:39.147 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 10.502 seconds (JVM running for 12.162)
+2020-08-31 10:43:45.030 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:44:00.037 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:45:30.289 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 17356 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 10:45:30.293 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 10:45:30.843 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 10:45:30.845 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 10:45:30.866 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-08-31 10:45:31.638 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 10:45:31.647 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:45:31.647 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 10:45:31.648 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 10:45:31.768 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 10:45:31.768 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1418 ms
+2020-08-31 10:45:32.636 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:45:33.070 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 10:45:33.200 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 10:45:33.201 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 10:45:38.135 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:45:38.152 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 10:45:38.155 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.684 seconds (JVM running for 11.048)
+2020-08-31 10:45:43.957 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:45:58.965 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:46:13.976 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:46:22.441 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 10:46:22.442 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 10:46:22.450 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 8 ms
+2020-08-31 10:46:22.553 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-31 10:46:22.554 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》192.168.37.127
+2020-08-31 10:46:22.554 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:46:22.555 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-31 10:46:22.557 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:46:22.558 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[]
+2020-08-31 10:46:22.558 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-31 10:46:28.980 - [] - [container-4] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:46:43.985 - [] - [container-5] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:46:56.739 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-31 10:46:56.739 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》192.168.37.127
+2020-08-31 10:46:56.739 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:46:56.740 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-31 10:46:56.740 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:46:56.740 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[]
+2020-08-31 10:46:56.741 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-31 10:46:58.997 - [] - [container-6] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:47:02.241 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》192.168.37.127
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[]
+2020-08-31 10:47:02.242 - [] - [http-nio-8080-exec-4] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-31 10:47:14.002 - [] - [container-7] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:47:29.006 - [] - [container-8] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:47:44.010 - [] - [container-9] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:47:59.014 - [] - [container-10] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:48:14.018 - [] - [container-11] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:48:29.023 - [] - [container-12] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:48:44.027 - [] - [container-13] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:48:59.032 - [] - [container-14] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:49:14.037 - [] - [container-15] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:49:18.335 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-31 10:49:18.335 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》192.168.37.127
+2020-08-31 10:49:18.335 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:49:18.336 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-31 10:49:18.336 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:49:18.336 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[]
+2020-08-31 10:49:18.336 - [] - [http-nio-8080-exec-7] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-31 10:49:29.044 - [] - [container-16] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:49:44.048 - [] - [container-17] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:49:59.051 - [] - [container-18] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:50:14.055 - [] - [container-19] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:50:29.061 - [] - [container-20] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:50:44.069 - [] - [container-21] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:50:59.074 - [] - [container-22] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:51:14.078 - [] - [container-23] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:51:29.083 - [] - [container-24] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:51:44.087 - [] - [container-25] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:51:59.091 - [] - [container-26] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:52:14.096 - [] - [container-27] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:52:29.126 - [] - [container-28] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:52:44.131 - [] - [container-29] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:52:59.151 - [] - [container-30] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:53:14.154 - [] - [container-31] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:53:29.159 - [] - [container-32] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:53:44.162 - [] - [container-33] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:53:59.165 - [] - [container-34] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:54:14.169 - [] - [container-35] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:54:16.428 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 10:54:16.429 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:54:27.110 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 24940 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 10:54:27.115 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 10:54:27.746 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 10:54:27.749 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 10:54:27.772 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-31 10:54:28.458 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 10:54:28.466 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:54:28.466 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 10:54:28.467 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 10:54:28.569 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 10:54:28.569 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1394 ms
+2020-08-31 10:54:29.456 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:54:29.868 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 10:54:29.988 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 10:54:29.989 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 10:54:34.922 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:54:34.937 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 10:54:34.940 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.616 seconds (JVM running for 9.83)
+2020-08-31 10:54:40.749 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:54:46.675 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 10:54:46.675 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 10:54:46.684 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 9 ms
+2020-08-31 10:54:46.704 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 10:54:46.704 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 10:54:46.705 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:54:46.705 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 10:54:46.707 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:54:46.707 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 10:54:46.707 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 10:54:55.759 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:55:10.770 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:55:18.373 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 10:55:18.374 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:56:35.839 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 23364 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 10:56:35.842 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 10:56:36.549 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 10:56:36.552 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 10:56:36.578 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-08-31 10:56:37.245 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 10:56:37.253 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:56:37.253 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 10:56:37.254 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 10:56:37.357 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 10:56:37.358 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1455 ms
+2020-08-31 10:56:38.187 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 10:56:38.553 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 10:56:38.687 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 10:56:38.689 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 10:56:43.619 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 10:56:43.636 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 10:56:43.643 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.596 seconds (JVM running for 9.888)
+2020-08-31 10:56:45.577 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 10:56:45.578 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 10:56:45.586 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 8 ms
+2020-08-31 10:56:45.607 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 10:56:45.608 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 10:56:45.609 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 10:56:45.609 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 10:56:45.612 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 10:56:45.612 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 10:56:45.613 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 10:56:49.575 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:57:04.581 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 10:57:10.058 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 10:57:10.059 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:05:15.588 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 21584 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:05:15.593 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:05:16.325 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:05:16.327 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:05:16.352 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-31 11:05:17.192 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:05:17.200 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:05:17.201 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:05:17.201 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:05:17.303 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:05:17.303 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1647 ms
+2020-08-31 11:05:18.213 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:05:18.598 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:05:18.724 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:05:18.726 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:05:23.657 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:05:23.671 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:05:23.674 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.953 seconds (JVM running for 10.255)
+2020-08-31 11:05:26.091 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:05:26.092 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:05:26.099 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 7 ms
+2020-08-31 11:05:26.118 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 11:05:26.119 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 11:05:26.119 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 11:05:26.119 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 11:05:26.121 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 11:05:26.121 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 11:05:26.121 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 11:05:29.470 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:05:33.264 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:05:33.266 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:08:14.712 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 2332 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:08:14.717 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:08:15.401 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:08:15.404 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:08:15.432 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-08-31 11:08:16.135 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:08:16.146 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:08:16.147 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:08:16.148 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:08:16.277 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:08:16.277 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1494 ms
+2020-08-31 11:08:17.170 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:08:17.578 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:08:17.709 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:08:17.710 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:08:22.632 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:08:22.646 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:08:22.649 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.76 seconds (JVM running for 10.183)
+2020-08-31 11:08:28.470 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:08:28.475 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:08:28.476 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:08:28.483 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 7 ms
+2020-08-31 11:08:28.501 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 11:08:28.502 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 11:08:28.502 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 11:08:28.503 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 11:08:28.504 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 11:08:28.504 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 11:08:28.505 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 11:08:43.476 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:08:58.480 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:09:13.484 - [] - [container-4] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:09:28.505 - [] - [container-5] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:09:43.511 - [] - [container-6] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:09:45.866 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:09:45.867 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:09:53.239 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 4524 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:09:53.245 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:09:53.922 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:09:53.924 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:09:53.949 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-31 11:09:54.604 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:09:54.612 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:09:54.612 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:09:54.613 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:09:54.714 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:09:54.714 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1411 ms
+2020-08-31 11:09:55.553 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:09:56.088 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:09:56.225 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:09:56.226 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:10:01.150 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:10:01.164 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:10:01.166 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.729 seconds (JVM running for 9.985)
+2020-08-31 11:10:07.045 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:10:08.847 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:10:08.847 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:10:08.856 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 8 ms
+2020-08-31 11:10:08.874 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 11:10:08.874 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 11:10:08.875 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 11:10:08.875 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 11:10:08.876 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 11:10:08.877 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 11:10:08.877 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 11:10:22.051 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:10:37.062 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:10:52.069 - [] - [container-4] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:11:07.076 - [] - [container-5] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:11:22.080 - [] - [container-6] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:11:37.085 - [] - [container-7] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:11:52.101 - [] - [container-8] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:12:07.121 - [] - [container-9] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:12:22.127 - [] - [container-10] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:12:37.130 - [] - [container-11] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:12:52.134 - [] - [container-12] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:13:07.139 - [] - [container-13] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:13:22.144 - [] - [container-14] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:13:37.148 - [] - [container-15] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:13:52.152 - [] - [container-16] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:14:07.157 - [] - [container-17] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:14:22.161 - [] - [container-18] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:14:37.167 - [] - [container-19] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:14:52.171 - [] - [container-20] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:15:07.173 - [] - [container-21] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:15:22.177 - [] - [container-22] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:15:37.183 - [] - [container-23] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:15:52.189 - [] - [container-24] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:16:01.378 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:16:01.380 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:16:28.940 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 11444 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:16:28.944 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:16:29.611 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:16:29.614 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:16:29.642 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-08-31 11:16:30.313 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:16:30.320 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:16:30.321 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:16:30.321 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:16:30.422 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:16:30.422 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1426 ms
+2020-08-31 11:16:31.310 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:16:31.687 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:16:31.810 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:16:31.812 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:16:36.743 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:16:36.756 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:16:36.758 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.569 seconds (JVM running for 9.845)
+2020-08-31 11:16:42.576 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:16:49.479 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:16:49.479 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:16:49.500 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 20 ms
+2020-08-31 11:16:49.518 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - <=====================================================
+2020-08-31 11:16:49.519 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求来源： =》192.168.37.127
+2020-08-31 11:16:49.519 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 11:16:49.520 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求方式：GET
+2020-08-31 11:16:49.521 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 11:16:49.522 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 请求参数：[]
+2020-08-31 11:16:49.522 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - ------------------------------------------------------
+2020-08-31 11:16:57.583 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:17:12.681 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:17:26.825 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:17:26.827 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:17:58.072 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 27364 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:17:58.077 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:17:58.724 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:17:58.726 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:17:58.750 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-31 11:17:59.337 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:17:59.346 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:17:59.347 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:17:59.347 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:17:59.457 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:17:59.457 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1320 ms
+2020-08-31 11:18:00.133 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:18:00.318 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:18:00.432 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:18:00.433 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:18:05.353 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:18:05.367 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:18:05.370 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 8.112 seconds (JVM running for 9.41)
+2020-08-31 11:18:07.427 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:18:07.427 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:18:07.433 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 4 ms
+2020-08-31 11:18:11.202 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:18:19.939 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:18:19.940 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:32:40.533 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 2508 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:32:40.538 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:32:41.874 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:32:41.879 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:32:41.930 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-08-31 11:32:43.095 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:32:43.122 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:32:43.123 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:32:43.124 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:32:43.290 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:32:43.291 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2696 ms
+2020-08-31 11:32:49.055 - [] - [main] INFO  demo.filter.MyFilter.init(32) - 过滤器：init方法开始执行！！！
+2020-08-31 11:32:50.350 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:32:50.791 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:32:50.999 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:32:51.001 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:32:55.849 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:32:55.963 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:32:55.966 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 16.2 seconds (JVM running for 17.445)
+2020-08-31 11:33:01.798 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:33:03.241 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:33:03.242 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:33:03.251 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 9 ms
+2020-08-31 11:33:03.302 - [] - [http-nio-8080-exec-1] INFO  demo.filter.MyFilter.doFilter(41) - 过滤器：doFilter方法开始执行！！！
+2020-08-31 11:33:16.803 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:33:31.810 - [] - [container-3] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:33:46.816 - [] - [container-4] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:34:01.228 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:34:01.229 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:34:02.261 - [] - [SpringContextShutdownHook] INFO  demo.filter.MyFilter.destroy(46) - 过滤器：destroy方法开始执行！！！
+2020-08-31 11:34:09.224 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 18104 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 11:34:09.229 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 11:34:09.927 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 11:34:09.929 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 11:34:09.955 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-08-31 11:34:10.869 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 11:34:10.876 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:34:10.877 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 11:34:10.877 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 11:34:10.984 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 11:34:10.984 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1696 ms
+2020-08-31 11:34:13.794 - [] - [main] INFO  demo.filter.MyFilter.init(32) - 过滤器：init方法开始执行！！！
+2020-08-31 11:34:14.648 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:34:15.077 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 11:34:15.222 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 11:34:15.223 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 11:34:20.146 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 11:34:20.161 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 11:34:20.164 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 11.788 seconds (JVM running for 13.089)
+2020-08-31 11:34:20.227 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 11:34:20.228 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 11:34:20.236 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 8 ms
+2020-08-31 11:34:20.426 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - <=====================================================
+2020-08-31 11:34:20.427 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求来源： =》192.168.37.127
+2020-08-31 11:34:20.428 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求URL：http://192.168.37.127:8080/testInterceptor
+2020-08-31 11:34:20.428 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 请求方式：GET
+2020-08-31 11:34:20.431 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 响应方法：demo.controller.InterceptorController.testInterceptor
+2020-08-31 11:34:20.431 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - 请求参数：[]
+2020-08-31 11:34:20.431 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(66) - ------------------------------------------------------
+2020-08-31 11:34:22.564 - [] - [http-nio-8080-exec-1] INFO  demo.filter.MyFilter.doFilter(42) - 过滤器：doFilter方法开始执行！！！
+2020-08-31 11:34:26.024 - [] - [container-1] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:34:41.031 - [] - [container-2] ERROR o.s.d.redis.listener.RedisMessageListenerContainer.handleSubscriptionException(651) - Connection failure occurred. Restarting subscription task after 5000 ms
+2020-08-31 11:34:53.252 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 11:34:53.254 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 11:34:56.483 - [] - [SpringContextShutdownHook] INFO  demo.filter.MyFilter.destroy(47) - 过滤器：destroy方法开始执行！！！
+2020-08-31 13:43:52.164 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 19128 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 13:43:52.225 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 13:43:53.994 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 13:43:53.997 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 13:43:54.026 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-08-31 13:43:55.047 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 13:43:55.071 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 13:43:55.071 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 13:43:55.072 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 13:43:55.192 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 13:43:55.192 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2832 ms
+2020-08-31 13:43:57.426 - [] - [main] INFO  demo.filter.MyFilter.init(32) - 过滤器：init方法开始执行！！！
+2020-08-31 13:43:58.993 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 13:43:59.557 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 13:43:59.797 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 13:43:59.799 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 13:44:01.232 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 13:44:01.254 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 13:44:01.258 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 10.457 seconds (JVM running for 12.668)
+2020-08-31 13:44:10.532 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 13:44:10.532 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 13:44:10.545 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 12 ms
+2020-08-31 13:44:10.556 - [] - [http-nio-8080-exec-1] INFO  demo.filter.MyFilter.doFilter(41) - 过滤器：doFilter方法开始执行！！！
+2020-08-31 13:44:10.579 - [] - [http-nio-8080-exec-1] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-31 13:45:00.848 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 13:45:00.849 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 13:45:01.373 - [] - [SpringContextShutdownHook] INFO  demo.filter.MyFilter.destroy(48) - 过滤器：destroy方法开始执行！！！
+2020-08-31 14:02:51.804 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 25348 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 14:02:51.807 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 14:02:52.376 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 14:02:52.378 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 14:02:52.400 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-08-31 14:02:53.356 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 14:02:53.384 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 14:02:53.385 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 14:02:53.385 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 14:02:53.538 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 14:02:53.539 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1649 ms
+2020-08-31 14:02:53.616 - [] - [main] INFO  demo.filter.MyFilter.init(32) - 过滤器：init方法开始执行！！！
+2020-08-31 14:02:55.124 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 14:02:55.653 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 14:02:55.861 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 14:02:55.863 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 14:02:56.785 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 14:02:56.800 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 14:02:56.802 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 5.542 seconds (JVM running for 6.702)
+2020-08-31 14:03:01.335 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 14:03:01.336 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 14:03:01.347 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 11 ms
+2020-08-31 14:03:01.355 - [] - [http-nio-8080-exec-1] INFO  demo.filter.MyFilter.doFilter(41) - 过滤器：doFilter方法开始执行！！！
+2020-08-31 14:03:01.402 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - <=====================================================
+2020-08-31 14:03:01.403 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求来源： =》192.168.37.127
+2020-08-31 14:03:01.404 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 请求URL：http://192.168.37.127:8080/testFilter
+2020-08-31 14:03:01.404 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 请求方式：GET
+2020-08-31 14:03:01.406 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - 响应方法：demo.controller.FilterController.testFilter
+2020-08-31 14:03:01.406 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(65) - 请求参数：[]
+2020-08-31 14:03:01.406 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(66) - ------------------------------------------------------
+2020-08-31 14:54:30.089 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 6212 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-31 14:54:30.118 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-31 14:54:31.321 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-31 14:54:31.324 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-31 14:54:31.376 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-08-31 14:54:32.414 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-31 14:54:32.425 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-31 14:54:32.426 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-31 14:54:32.426 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-31 14:54:32.574 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-31 14:54:32.575 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2403 ms
+2020-08-31 14:54:34.596 - [] - [main] INFO  demo.filter.MyFilter.init(32) - 过滤器：init方法开始执行！！！
+2020-08-31 14:54:37.119 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-31 14:54:37.682 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-31 14:54:37.873 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-31 14:54:37.875 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-31 14:54:38.833 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-31 14:54:38.850 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-31 14:54:38.853 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 9.676 seconds (JVM running for 11.577)
+2020-08-31 14:56:43.970 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-31 14:56:43.970 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-31 14:56:43.984 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 14 ms
+2020-08-31 14:56:43.996 - [] - [http-nio-8080-exec-1] INFO  demo.filter.MyFilter.doFilter(41) - 过滤器：doFilter方法开始执行！！！
+2020-08-31 14:58:16.424 - [] - [pool-1-thread-1] ERROR demo.eurakServer.eventListener.DownEventListener.handler(22) - IP：127.0.0.1,port:8081，服务名称：provider:下线了!!
+2020-08-31 14:58:34.527 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-31 14:58:34.529 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-31 14:58:34.996 - [] - [SpringContextShutdownHook] INFO  demo.filter.MyFilter.destroy(47) - 过滤器：destroy方法开始执行！！！

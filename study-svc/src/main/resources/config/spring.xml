@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!-- 自动创建代理织入切面 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!--缓存配置 选择一个使用：单机或集群-->
+    <!--<import resource="classpath:config/cache/cache-cluster-ali.xml"/>-->
+    <import resource="classpath:config/redis/redis-config.xml"/>
+
+
+
+</beans>

@@ -1,0 +1,213 @@
+2020-08-26 14:07:09.698 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 10544 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 14:07:09.705 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 14:07:11.382 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 14:07:11.386 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 14:07:11.438 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-08-26 14:07:12.497 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 14:07:12.506 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 14:07:12.507 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 14:07:12.507 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 14:07:12.653 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 14:07:12.653 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2852 ms
+2020-08-26 14:07:14.098 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 14:07:14.819 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 14:07:15.045 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 14:07:15.047 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 14:07:15.950 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 14:07:15.967 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 14:07:15.972 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 7.93 seconds (JVM running for 9.933)
+2020-08-26 14:07:19.413 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 14:07:19.413 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-26 14:07:19.425 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 12 ms
+2020-08-26 14:07:19.464 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-26 14:07:19.465 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》127.0.0.1
+2020-08-26 14:07:19.466 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://127.0.0.1:8080/user
+2020-08-26 14:07:19.466 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-26 14:07:19.467 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.UserController.findUserByName
+2020-08-26 14:07:19.467 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[213]
+2020-08-26 14:07:19.468 - [] - [http-nio-8080-exec-1] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-26 14:07:19.596 - [] - [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2020-08-26 14:07:19.906 - [] - [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2020-08-26 14:07:20.088 - [] - [http-nio-8080-exec-1] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 14:07:37.993 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-26 14:07:37.993 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》127.0.0.1
+2020-08-26 14:07:37.994 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://127.0.0.1:8080/user
+2020-08-26 14:07:37.994 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-26 14:07:37.995 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.UserController.findUserByName
+2020-08-26 14:07:37.995 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[213]
+2020-08-26 14:07:37.995 - [] - [http-nio-8080-exec-2] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-26 14:07:37.999 - [] - [http-nio-8080-exec-2] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 14:08:07.932 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-26 14:08:07.933 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-26 14:08:08.123 - [] - [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(350) - HikariPool-1 - Shutdown initiated...
+2020-08-26 14:08:08.185 - [] - [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(352) - HikariPool-1 - Shutdown completed.
+2020-08-26 16:08:29.657 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 5220 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 16:08:29.696 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 16:08:30.327 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 16:08:30.330 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 16:08:30.350 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-08-26 16:08:30.995 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 16:08:31.006 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:08:31.008 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 16:08:31.009 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 16:08:31.118 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 16:08:31.119 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1383 ms
+2020-08-26 16:08:31.980 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 16:08:32.320 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 16:08:32.431 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 16:08:32.432 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 16:08:33.296 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:08:33.307 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 16:08:33.309 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 4.205 seconds (JVM running for 5.456)
+2020-08-26 16:59:02.642 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 26572 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 16:59:02.712 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 16:59:03.826 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 16:59:03.830 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 16:59:03.861 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-26 16:59:04.783 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 16:59:04.790 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:59:04.790 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 16:59:04.791 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 16:59:04.913 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 16:59:04.913 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2115 ms
+2020-08-26 16:59:06.019 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 16:59:06.407 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 16:59:06.596 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 16:59:06.598 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 16:59:07.466 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 16:59:07.481 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 16:59:07.483 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 5.649 seconds (JVM running for 7.39)
+2020-08-26 17:21:44.938 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 6428 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 17:21:44.942 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 17:21:45.555 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 17:21:45.557 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 17:21:45.581 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-26 17:21:46.266 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 17:21:46.274 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:21:46.274 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 17:21:46.275 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 17:21:46.383 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 17:21:46.383 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1391 ms
+2020-08-26 17:21:47.144 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:21:47.512 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 17:21:47.632 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 17:21:47.633 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 17:21:48.517 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:21:48.528 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 17:21:48.530 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 4.266 seconds (JVM running for 5.409)
+2020-08-26 17:36:06.698 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 1852 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 17:36:06.705 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 17:36:07.439 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 17:36:07.442 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 17:36:07.468 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-08-26 17:36:08.155 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 17:36:08.163 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:36:08.163 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 17:36:08.163 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 17:36:08.265 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 17:36:08.266 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1486 ms
+2020-08-26 17:36:09.446 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:36:09.919 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 17:36:10.043 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 17:36:10.044 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 17:36:10.922 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:36:10.936 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 17:36:10.939 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 5.053 seconds (JVM running for 6.486)
+2020-08-26 17:36:33.004 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 17:36:33.004 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-26 17:36:33.030 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 26 ms
+2020-08-26 17:37:28.326 - [] - [http-nio-8080-exec-3] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:37:52.390 - [] - [http-nio-8080-exec-4] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:42:08.137 - [] - [http-nio-8080-exec-6] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:42:18.228 - [] - [http-nio-8080-exec-7] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:42:45.395 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(58) - <=====================================================
+2020-08-26 17:42:45.395 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(59) - 请求来源： =》127.0.0.1
+2020-08-26 17:42:45.396 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(60) - 请求URL：http://127.0.0.1:8080/user
+2020-08-26 17:42:45.396 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(61) - 请求方式：GET
+2020-08-26 17:42:45.681 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(62) - 响应方法：demo.controller.UserController.findUserByName
+2020-08-26 17:42:45.682 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(63) - 请求参数：[213]
+2020-08-26 17:42:45.683 - [] - [http-nio-8080-exec-8] INFO  demo.Aspect.LogApsect.before(64) - ------------------------------------------------------
+2020-08-26 17:42:45.810 - [] - [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2020-08-26 17:42:46.132 - [] - [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2020-08-26 17:42:46.310 - [] - [http-nio-8080-exec-8] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:43:38.616 - [] - [http-nio-8080-exec-10] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:44:41.750 - [] - [http-nio-8080-exec-3] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:45:33.585 - [] - [http-nio-8080-exec-5] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:46:05.807 - [] - [http-nio-8080-exec-6] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:46:53.058 - [] - [http-nio-8080-exec-7] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:47:03.921 - [] - [http-nio-8080-exec-8] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:48:07.677 - [] - [http-nio-8080-exec-9] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:48:49.967 - [] - [http-nio-8080-exec-1] ERROR demo.controllerAdvice.ControllerAdvice.errorHandler(31) - 全局异常处理器执行开始！！！
+2020-08-26 17:48:50.435 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-26 17:48:50.436 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:48:50.675 - [] - [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(350) - HikariPool-1 - Shutdown initiated...
+2020-08-26 17:48:50.702 - [] - [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close(352) - HikariPool-1 - Shutdown completed.
+2020-08-26 17:49:59.987 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 18584 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 17:49:59.993 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 17:50:00.724 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 17:50:00.727 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 17:50:00.752 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-26 17:50:01.461 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 17:50:01.469 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:50:01.470 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 17:50:01.470 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 17:50:01.573 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 17:50:01.573 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1493 ms
+2020-08-26 17:50:02.449 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:50:02.836 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 17:50:02.970 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 17:50:02.972 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 17:50:03.816 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:50:03.830 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 17:50:03.833 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 4.805 seconds (JVM running for 6.17)
+2020-08-26 17:50:17.012 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 17:50:17.013 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-26 17:50:17.034 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 20 ms
+2020-08-26 17:54:45.063 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-26 17:54:45.063 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:55:05.368 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 20276 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 17:55:05.374 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 17:55:06.479 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 17:55:06.483 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 17:55:06.529 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-08-26 17:55:07.578 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 17:55:07.588 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:55:07.589 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 17:55:07.589 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 17:55:07.723 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 17:55:07.723 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 2260 ms
+2020-08-26 17:55:08.767 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 17:55:09.426 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 17:55:09.620 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 17:55:09.622 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 17:55:10.750 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 17:55:10.784 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 17:55:10.790 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 6.371 seconds (JVM running for 7.629)
+2020-08-26 17:55:10.931 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 17:55:10.932 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-26 17:55:10.944 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 12 ms
+2020-08-26 17:55:19.711 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-26 17:55:19.713 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-26 18:01:41.273 - [] - [main] INFO  demo.DemoApplication.logStarting(55) - Starting DemoApplication on CC-38 with PID 6048 (E:\BJProject\study\study-svc\target\classes started by liliang in E:\BJProject\study)
+2020-08-26 18:01:41.277 - [] - [main] INFO  demo.DemoApplication.logStartupProfileInfo(655) - The following profiles are active: local-dev
+2020-08-26 18:01:42.121 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.multipleStoresDetected(249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-08-26 18:01:42.124 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-08-26 18:01:42.151 - [] - [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate.registerRepositoriesIn(187) - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-08-26 18:01:42.896 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize(91) - Tomcat initialized with port(s): 8080 (http)
+2020-08-26 18:01:42.903 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-26 18:01:42.904 - [] - [main] INFO  org.apache.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2020-08-26 18:01:42.904 - [] - [main] INFO  org.apache.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-08-26 18:01:43.003 - [] - [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2020-08-26 18:01:43.003 - [] - [main] INFO  org.springframework.web.context.ContextLoader.prepareWebApplicationContext(284) - Root WebApplicationContext: initialization completed in 1665 ms
+2020-08-26 18:01:44.001 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize(181) - Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-26 18:01:44.537 - [] - [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.initialize(181) - Initializing ExecutorService 'taskScheduler'
+2020-08-26 18:01:44.693 - [] - [container-1] INFO  io.lettuce.core.EpollProvider.<clinit>(68) - Starting without optional epoll library
+2020-08-26 18:01:44.695 - [] - [container-1] INFO  io.lettuce.core.KqueueProvider.<clinit>(70) - Starting without optional kqueue library
+2020-08-26 18:01:45.630 - [] - [main] INFO  org.apache.coyote.http11.Http11NioProtocol.log(173) - Starting ProtocolHandler ["http-nio-8080"]
+2020-08-26 18:01:45.647 - [] - [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer.start(203) - Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-26 18:01:45.650 - [] - [main] INFO  demo.DemoApplication.logStarted(61) - Started DemoApplication in 5.375 seconds (JVM running for 6.771)
+2020-08-26 18:01:45.761 - [] - [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/].log(173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-26 18:01:45.761 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(525) - Initializing Servlet 'dispatcherServlet'
+2020-08-26 18:01:45.770 - [] - [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet.initServletBean(547) - Completed initialization in 9 ms
+2020-08-26 18:03:52.278 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler.shutdown(218) - Shutting down ExecutorService 'taskScheduler'
+2020-08-26 18:03:52.279 - [] - [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown(218) - Shutting down ExecutorService 'applicationTaskExecutor'

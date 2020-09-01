@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="demo.user.dao.UserMapper">
+
+    <select id="findUserByName" resultType="demo.user.dto.User" parameterType="java.lang.String">
+        SELECT NAME, SEX  FROM USER_INFO
+         WHERE NAME LIKE '%'||#{name}||'%'
+    </select>
+</mapper>
