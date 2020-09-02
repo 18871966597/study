@@ -1,6 +1,6 @@
-package demo.eurakServer.serverImpl;
+package demo.eurakServer.serverServiceImpl;
 
-import demo.eurakServer.Server.Service.EurakServiceInstance;
+import demo.eurakServer.serverService.EurakServiceInstance;
 import demo.eurakServer.model.EurakEntityInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -8,6 +8,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 // @Configuration  声明被标注为配置类
 // @ComponentScan 激活@Componment的扫描
 @SpringBootApplication
+// Filter过滤器需要指定扫描
 @ServletComponentScan("demo.filter")
 public class DemoApplication {
 

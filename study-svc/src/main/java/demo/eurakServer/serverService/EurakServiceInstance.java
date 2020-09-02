@@ -1,4 +1,4 @@
-package demo.eurakServer.Server.Service;
+package demo.eurakServer.serverService;
 
 import demo.eurakServer.model.EurakEntityInstance;
 import org.springframework.stereotype.Service;

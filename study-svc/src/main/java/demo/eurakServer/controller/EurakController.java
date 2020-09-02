@@ -1,6 +1,6 @@
 package demo.eurakServer.controller;
 
-import demo.eurakServer.Server.Service.EurakServiceInstance;
+import demo.eurakServer.serverService.EurakServiceInstance;
 import demo.eurakServer.model.EurakEntityInstance;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
