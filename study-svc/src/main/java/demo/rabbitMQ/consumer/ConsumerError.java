@@ -33,7 +33,12 @@ public class ConsumerError {
         // channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
         channel.exchangeDeclare(TOPIC_EXCHANGE_NAME, BuiltinExchangeType.TOPIC);
         // 声明随机队列
-        String queueName = channel.queueDeclare().getQueue(); //这里也可以声明指定名称队列
+        String queueName = channel.queueDeclare().getQueue();
+        //这里也可以声明指定名称队列
+        // String queueName = "topic_logqueque";
+        // String queue, boolean durable(持久化), boolean exclusive（是否私有）, boolean autoDelete（自动删除）, Map<String, Object>
+        // arguments（声明队列的参数，Map）
+        // channel.queueDeclare(queueName,false,false,false,null);
         // *代表一个层级，#代表所有的
         // 所有的xxx.error都会别接受到
         String server = "*.error";
