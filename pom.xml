@@ -76,6 +76,13 @@
             <artifactId>ojdbc14</artifactId>
             <version>10.2.0.4.0</version>
         </dependency>
+        <!--rabbitMQ 消息中间件-->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+        <!--rabbitMQ 消息中间件-->
 
         <dependency>
             <groupId>com.alibaba</groupId>
